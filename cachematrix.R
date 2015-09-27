@@ -9,7 +9,7 @@ makeCacheMatrix <- function(x = matrix()) {
   x<<-y
   tmp<<-NULL
 }
-recup<-function() x
+get<-function() x
 defmatrice<-function(solve) tmp<<- solve
 recupmatrice<-function() tmp
 list(set=set, get=get, defmatrice=defmatrice, recupmatrice=recupmatrice)
